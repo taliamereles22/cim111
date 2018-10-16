@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+.first-class{
+  text-align : center;
+}
+
+
+
+}
+#colorChange{
+  color: pink;
+}
+
+.backgroundChange{
+  background-color: red;
+}
+
+#box{
+  background-color: pink;
+  width: 180px;
+  height: auto;
+}
+
+body{
+  font-family: 'Dancing Script', cursive;
+}
+
+
+header{
+  background-color: aquamarine;
+  width: auto;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: -25px;
+}
+
+main{
+  background-color: white;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  margin-top: -16px;
+}
+
+footer {
+    width: auto;
+    height: 50px;
+    background-color:aquamarine;
+    margin: 0 auto;
+}
+
+nav{
+  width:auto;
+  margin: 0 auto;
+  background-color: pink;
+}
+
+nav ul{
+
+}
+nav ul li a:hover{
+  background-color:aquamarine
+
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover{
+  color: gray;
+}
