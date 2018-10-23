@@ -12,7 +12,7 @@
 }
 
 .backgroundChange{
-  background-color: red;
+  background-color: PaleTurquoise;
 }
 
 #box{
@@ -27,7 +27,7 @@ body{
 
 
 header{
-  background-color: aquamarine;
+  background-color: PaleTurquoise;
   width: auto;
   height: 200px;
   margin: 0 auto;
@@ -45,7 +45,7 @@ main{
 footer {
     width: auto;
     height: 50px;
-    background-color:aquamarine;
+    background-color:PaleTurquoise;
     margin: 0 auto;
 }
 
@@ -60,7 +60,7 @@ width: 400px;
 margin: 0 auto;
 }
 nav ul li a:hover{
-  background-color:aquamarine
+  background-color:PaleTurquoise;
 
 }
 

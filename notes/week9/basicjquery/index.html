@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Intro to javascript</title>
+
+
+  </head>
+
+
+  <body>
+    <h1 id="textChange"> Intro to javascript</h1>
+    <!-- Local jquery script-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!--Remote version-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+      //ALL jquery code should be placed below
+      $("body").css("background-color","purple");
+      $("h1").css("color", "white");
+      $("h1").css("font-seze", "40px");
+      $("#textchange").css("background-color", "pink");
+      $("#textchange").html("I love javascript");
+
+      $("#textChange").click(fucntion(){
+
+        $("body").css("background-color,"orange");
+
+      });//End of textChange click
+
+
+
+
+    });//End of document ready
+
+
+
+    </script>
