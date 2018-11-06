@@ -1,43 +1,94 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <title>Intro to javascript</title>
+  <head>
+    <title>Intro to javascript</title>
 
 
-  </head>
 
+  </head>
 
-  <body>
-    <h1 id="textChange"> Intro to javascript</h1>
-    <!-- Local jquery script-->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <!--Remote version-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <body>
+    <h1 id="textChange">Intro to javascript</h1>
+    <h2 id="info">Mouse over to see more info</h2>
+    <div id="recepticle"></div>
 
-    <script>
-    $(document).ready(function(){
-      //ALL jquery code should be placed below
-      $("body").css("background-color","purple");
-      $("h1").css("color", "white");
-      $("h1").css("font-seze", "40px");
-      $("#textchange").css("background-color", "pink");
-      $("#textchange").html("I love javascript");
+<h2>Click to view images</h2>
+<img id="image1"src="https://cdn.pixabay.com/photo/2016/12/04/21/22/snow-man-1882635_1280.jpg" width="100">
+<img id="image2"src="" width="100">
+<div id="imageRecepticle"></div>
 
-      $("#textChange").click(fucntion(){
-
-        $("body").css("background-color", "orange");
-
-      });//End of textChange click
+<ul>
+    <li id="show">Show</li>
+    <li id= "hide">Hide</li>
+    <li id="toggle">Toggle</li>
+  </ul>
 
 
 
 
-    });//End of document ready
 
 
 
-    </script>
+    <!-- Local jquery script-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!--Remote version-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    </body>
-<html>
+    <script>
+    $(document).ready(function(){
+      //ALL jquery code should be placed below
+      $("body").css("background-color","purple");
+      $("h1").css("color","white");
+      $("h1").css("font-size","40px");
+      $("#textChange").css("background-color", "pink");
+      $("#textChange").html("I love javascript");
+
+      $("#textChange").click(function(){
+
+      $("body").css("background-color","orange");
+
+      });//end of textChange click
+
+      $("#info").mouseenter(function(){
+        $("#recepticle").html("<em> This information is important </em>");
+      });
+      $("#info").mouseleave(function(){
+        $("#recepticle").html("");
+        $("#info").css("background-color," "transparent");
+      })
+
+$("#image1").click(function(){
+        $("#imageRecepticle").html('img src='"https://cdn.pixabay.com/photo/2016/12/04/21/22/snow-man-1882635_1280.jpg" width= "300>"'');
+$("#imageRecepticle").html('img src='"https://cdn.pixabay.com/photo/2015/12/12/22/35/snowman-1090261_1280.jpg" width= "300>"'');
+      });
+
+
+$("#hide").click(function(){
+  $(".box").hide();
+});
+
+$("#show").click(function(){
+  $(".box").show();
+});
+
+$("#toggle").click(function(){
+  $(".box").toggle(1000);
+});
+    });//End of document ready
+
+
+
+    </script>
+
+
+
+
+
+
+  </body>
+
+
+
+
+</html>

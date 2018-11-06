@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How to bake cupcakes</title>
+
+  <style>
+ul{
+list-style-type: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+</style>
+
+</head>
+<body>
+<h1 id="textChange" text align=center>How to bake cupcakes!</h1>
+<ul>
+  <h2><em> Easy Instructions on How to Bake the Perfect Cupcake!</em></h2>
+      <li>
+        <div id="step1"><strong>step 1</div>
+        <img src="imagess/hi.jpg" width="600" />
+        <div id="step1info"></div>
+      </li>
+
+      <li>
+        <div id="step2">step 2 </div>
+        <img src="imagess/milk.jpg" width="600" />
+        <div id="step2info"></div>
+      </li>
+
+      <li>
+        <div id="step3">step 3</div>
+        <img src="imagess/eggs.jpg" width="600" />
+        <div id="step3info"></div>
+      </li>
+
+      <li>
+        <div id="step4">step 4 </div>
+        <img src="imagess/oil.jpg" width="600" />
+        <div id="step4info"></div>
+      </li>
+      <li>
+        <div id="step5">step 5</div>
+        <img src="imagess/mix.jpg" width="600" />
+        <div id="step5info"></div>
+      </li>
+<li>
+        <div id="step6">step 6</div>
+        <img src="imagess/bowl.jpg" width="600" />
+        <div id="step6info"></div>
+      </li>
+<li>
+        <div id="step7">step 7:</div>
+        <img src="imagess/mixed.jpg" width="600" />
+        <div id="step7info"></div>
+      </li>
+<li>
+        <div id="step8">step 8:</div>
+        <img src="imagess/pam.jpg" width="600" />
+        <div id="step8info"></div>
+      </li>
+<li>
+        <div id="step9">step 9: </div>
+        <img src="imagess/pour.jpg" width="600" />
+        <div id="step9info"></div>
+      </li>
+<li>
+        <div id="step10">step 10: </div>
+        <img src="imagess/oven.jpg" width="600" />
+        <div id="step10info"></div>
+      </li>
+<li>
+        <div id="step11">step 11: </div>
+        <img src="imagess/knife.jpg" width="600" />
+        <div id="step11info"></div>
+      </li>
+<li>
+        <div id="step12">step 12: </div>
+        <img src="imagess/frost.jpg" width="600" />
+        <div id="step12info"></div>
+      </li>
+<li>
+        <div id="step13">step 13:</div></strong>
+        <img src="imagess/done.jpg" width="600" />
+        <div id="step13info"></div>
+      </li>
+
+
+      <div id="imageRecepticle"></div>
+    </ul>
+
+      <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      //ALL jquery code should be placed below
+      $(".box").hide();
+      $("body").css("background-color","pink");
+      $("h1").css("color","maroon");
+      $("h1").css("font-size","40px");
+      $("h2").css("font-size", "25px");
+      $("#textChange").css("background-color", "white");
+      $("#textChange").html("Let's Learn How to Bake Cupcakes!");
+
+      $("#textChange").click(function(){
+      $("body").css("background-color","honeydew");
+    });
+
+    $("#step1").click(function(){
+        $("#image1").toggle();
+      $("#step1info").html(" Get your Supplies!").toggle();
+      });
+
+      $("#step2").click(function(){
+          $("#image1").toggle();
+        $("#step2info").html("Pour one cup of milk").toggle();
+        });
+
+        $("#step3").click(function(){
+            $("#image1").toggle();
+          $("#step3info").html("Crack three eggs").toggle();
+          });
+
+          $("#step4").click(function(){
+              $("#image1").toggle();
+            $("#step4info").html("Pour a half cup of oil").toggle();
+            });
+
+            $("#step5").click(function(){
+                $("#image1").toggle();
+              $("#step5info").html("Pour in the cake mix").toggle();
+              });
+
+            $("#step6").click(function(){
+                $("#image1").toggle();
+              $("#step6info").html("Get ready to mix!").toggle();
+              });
+
+            $("#step7").click(function(){
+                $("#image1").toggle();
+              $("#step7info").html("Get ready to mix!").toggle();
+              });
+
+            $("#step8").click(function(){
+                $("#image1").toggle();
+              $("#step8info").html("Once it mixed it should look like this").toggle();
+              });
+
+            $("#step8").click(function(){
+                $("#image1").toggle();
+              $("#step8info").html("Spray each cup holder with pam so the mix doesn't stick").toggle();
+              });
+
+            $("#step9").click(function(){
+                $("#image1").toggle();
+              $("#step9info").html("Pour each cup with mix, leaving room at the rim").toggle();
+              });
+
+            $("#step10").click(function(){
+                $("#image1").toggle();
+              $("#step10info").html("Preheat oven to 350 degrees").toggle();
+              });
+
+            $("#step11").click(function(){
+                $("#image1").toggle();
+              $("#step11info").html("Once 14 minutes have gone by do the knife check: If the knife comes out clean after dipping, they're ready!").toggle();
+              });
+
+            $("#step12").click(function(){
+                $("#image1").toggle();
+              $("#step12info").html("Frosting time: Frost each cupcake with your desired amount of frosting").toggle();
+              });
+            $("#step13").click(function(){
+                $("#image1").toggle();
+              $("#step13info").html("All done! Enjoy and share with friends:)").toggle();
+              });
+
+
+
+    });
+
+</script>
+
+<main></main>
+<footer></footer>
+</body>
+
+</html>
