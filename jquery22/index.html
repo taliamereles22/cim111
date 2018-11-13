@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<br></br>
+<header>My dream trip to Italy!</header>
+	<title>Dream Trip</title>
+<p>Ever since I was younger I have wanted to go to Italy. I love traveling and am very fortunate to have traveled all over the world. I have been to many places in Europe but I am yet to go to Italy! I want to go to Italy because of its beautiful ruins, art, culture, delicious food, and people.</p>
+	<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+	<script src="jquery.lightbox.js" type="text/javascript"></script>
+	<script>
+		$(document).ready(function(){
+		    base_url = document.location.href.substring(0, document.location.href.indexOf('index.html'), 0);
+
+			$(".lightbox").lightbox({
+			    fitToScreen: true,
+			    imageClickClose: false
+		    });
+
+			$(".lightbox-2").lightbox({
+			    fitToScreen: true,
+			    scaleImages: true,
+			    xScale: 1.2,
+			    yScale: 1.2,
+			    displayDownloadLink: true
+		    });
+
+			$(".lightbox-json").lightbox({
+			    fitToScreen: true,
+			    jsonData: new Array(
+			        {url: base_url + 'images/image.jpg', title: 'Image 1 loaded using JSON data' },
+			        {url: base_url + 'images/image-1.jpg', title: 'Image 2 loaded using JSON data' },
+			        {url: base_url + 'images/image-2.jpg', title: 'Image 3 loaded using JSON data' },
+			        {url: base_url + 'images/image-3.jpg', title: 'Image 4 loaded using JSON data' }
+		        ),
+		        loopImages: true,
+		        imageClickClose: false,
+		        disableNavbarLinks: true
+		    });
+
+
+		});
+
+	</script>
+
+	<style type="text/css">
+		body{ color: #333; font: 13px 'Lucida Grande', Verdana, sans-serif;	}
+	</style>
+
+</head>
+<body>
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+<h2>But what places in Italy do I want to go to?</h2>
+<a href="https://images.unsplash.com/photo-1494804265872-476520fd1a21?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4c9c0eed2a90ef4b607a3bd18a12178e&auto=format&fit=crop&w=1650&q=80" class="lightbox" title="Photo by Unsplash"><img src="https://images.unsplash.com/photo-1494804265872-476520fd1a21?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4c9c0eed2a90ef4b607a3bd18a12178e&auto=format&fit=crop&w=1650&q=80" height="90" alt="Map of Paris" /></a>
+
+<h2>Here are four places you cannot miss!</h2>
+<a href="https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f697e6b62b4b13af42ac059c235348f4&auto=format&fit=crop&w=934&q=80" class="lightbox-2" rel="flowers" title="Photo by Unpsplash"><img src="https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f697e6b62b4b13af42ac059c235348f4&auto=format&fit=crop&w=934&q=80" height="80" alt="Efile Tower" /></a>
+<a href="https://images.unsplash.com/photo-1533248984150-b6ba09089d8c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0f83d46cfbfd37159ea2438e37b61a1f&auto=format&fit=crop&w=934&q=80" class="lightbox-2" rel="flowers" title="Photo by Unpsplash"><img src="https://images.unsplash.com/photo-1533248984150-b6ba09089d8c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0f83d46cfbfd37159ea2438e37b61a1f&auto=format&fit=crop&w=934&q=80" height="80" alt="Louvre Museum" /></a>
+<a href="https://images.unsplash.com/photo-1507666664345-c49223375e33?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d88a5507d6d875da878a7ae394b6060a&auto=format&fit=crop&w=1653&q=80" class="lightbox-2" rel="flowers" title="Photo by Unpsplash"><img src="https://images.unsplash.com/photo-1507666664345-c49223375e33?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d88a5507d6d875da878a7ae394b6060a&auto=format&fit=crop&w=1653&q=80" height="80" alt="Arch de Triomph" /></a>
+<a href="https://images.unsplash.com/photo-1471623432079-b009d30b6729?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a24cc86e25636d5fe39fe8bfdb87a293&auto=format&fit=crop&w=1650&q=80" class="lightbox-2" rel="flowers" title="Photo by Unpsplash"><img src="https://images.unsplash.com/photo-1471623432079-b009d30b6729?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a24cc86e25636d5fe39fe8bfdb87a293&auto=format&fit=crop&w=1650&q=80" height="80" alt="City Streets" /></a>
+
+
+<h2>Ready, Set, Take Off!</h2>
+<a href="https://images.unsplash.com/photo-1514926239779-5d5019ec302b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ddd03d8080483c00723e6f16ef9d20ff&auto=format&fit=crop&w=934&q=80" class="lightbox-2" rel="flowers" title="Photo by Unpsplash"><img src="https://images.unsplash.com/photo-1514926239779-5d5019ec302b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ddd03d8080483c00723e6f16ef9d20ff&auto=format&fit=crop&w=934&q=80" height="80" alt="Arch de Triomph" /></a>
+
+<br></br>
+<br></br>
+
+<h2>My Travel Bucket list</h2>
+<ul>
+<li> Eiffel Tower</li>
+<a id="links" href="https://www.eiffeltickets.com/?gclid=CjwKCAiAiarfBRASEiwAw1tYv38QPhTqHcz3NNbQfblyDTWAMhLmtP-Lc8MX8V3yt41b90DZ0uMRWBoCl5YQAvD_BwE">Buy Tickets Here!</a>
+<li> Louvre Museum </li>
+<a id="links" href="https://www.louvre.fr/en">Buy Tickets Here!</a>
+<li>Arch de Triomph</li>
+<a id="links" href="http://www.paris-arc-de-triomphe.fr/en/">Buy Tickets Here!</a>
+<li>Disney Land</li>
+<a id="links" href="https://www.disneylandparis.com/en-us/?ecid=SEM_ild23_A_3b93d0fa-d303-458b-8a97-7af6ef1972ef&customid=173993972_1CjwKCAiAiarfBRASEiwAw1tYv55cl9A_uN5FWf1qEyTPTA16B_ULhJvGprsBL8bD3hBXCGI7dYttvhoCyLQQAvD_BwE&customid2=1_c_173993972_8723594252_aud-299185873348:kwd-45684820">Buy Tickets Here!</a>
+<li>Le Grenier à Pain</li>
+<a id="links" href="http://legrenierapain.com">Make a Reservation Here!</a>
+
+
+
+</body>
+</html>
