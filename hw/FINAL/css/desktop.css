@@ -7,8 +7,6 @@ body{
   background-size: cover;
 
 
-
-
 }
 
 #title{
@@ -171,7 +169,7 @@ textarea {
 
 
 
-<link rel="stylesheet" href="contactable.css" type="text/css" />
+/* <link rel="stylesheet" href="contactable.css" type="text/css" /> */
 
 
 
@@ -197,4 +195,10 @@ footer{
 
 height: 50px;
 
+}
+
+.hiddenBox{
+  width: 3000px;
+  height: 1px;
+  overflow: hidden;
 }
