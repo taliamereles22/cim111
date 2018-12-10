@@ -14,8 +14,14 @@ body{
 #title{
   text-align: center;
   color: white;
+  font-size: 50px
 }
 
+#p1{
+  text-align: center;
+  color: white;
+  font-size: 25px
+}
 
 
 
@@ -52,4 +58,143 @@ nav ul li a{
 
 nav ul li a:hover{
   color: grey;
+}
+h2{
+
+text-align: center;
+font-size: 25px;
+color: white;
+
+
+
+
+
+}
+h2 a{
+
+color: white;
+
+
+}
+h2 a:hover{
+
+color: grey;
+
+
+}
+
+.title{
+color: white;
+
+
+
+}
+
+.videos{
+  width: 560px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#newsGrid{
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+form {
+  max-width:420px; margin:50px auto;
+}
+
+.feedback-input {
+  color:white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: black;
+  border:2px solid orange;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid black; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Josefin Sans', sans-serif;
+  width: 100%;
+  background: orange;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:black; }
+
+.intro{
+  font-size: 10px;
+  width: 400px;
+  border: 25px solid grey;
+  padding: 10px;
+  background-blend-mode: lighten;
+  margin: auto;
+}
+
+.square{
+    width: 500px;
+    height: 100px;
+    Background-color: grey;
+    margin:auto;
+}
+
+
+
+<link rel="stylesheet" href="contactable.css" type="text/css" />
+
+
+
+
+
+
+
+       /* center contact info */
+
+
+
+/* .center{
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+
+} */
+
+
+footer{
+
+
+height: 50px;
+
 }
